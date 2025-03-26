@@ -1,0 +1,23 @@
+html{
+    font-family: Robto, "Times New Roman", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    margin: 0px;
+    padding: 0;
+    color: white;
+}
+
+.rightLinks{
+    display: flex;
+    gap: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
