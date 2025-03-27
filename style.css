@@ -6,6 +6,7 @@ html{
 
 .header{
     display: flex;
+    flex: 1;
     justify-content: space-around;
     background-color: #1F2937;
     margin: 0px;
@@ -21,3 +22,71 @@ html{
 ul{
     list-style-type: none;
 }
+
+.sectionOne{
+    background-color: #1F2937;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    padding: 50px;
+    color: white;
+}
+
+.container button{
+    background-color: rgb(79, 79, 228);
+    color: white;
+    border-radius: 25px;
+    padding: 6px 12px;
+}
+
+.container{
+    max-width: 300px;
+}
+
+.sectionTwo h4{
+    text-align: center;
+}
+
+.containerTwo ul{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.containerTwo img{
+    border: 8px solid rgb(79, 79, 233);
+    border-radius: 25px;
+}
+
+.containerTwo p{
+    max-width: 300px;
+}
+
+.sectionTwo{
+    padding: 25px;
+}
+
+.sectionThree{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(206, 204, 204);
+}
+
+.quote{
+    max-width: 700px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.author{
+    margin-left: 400px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
